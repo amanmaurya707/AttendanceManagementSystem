@@ -1,0 +1,26 @@
+SMAP
+view_005fattendance_005fby_005fstudent_jsp.java
+JSP
+*S JSP
+*F
++ 0 view_attendance_by_student.jsp
+view_attendance_by_student.jsp
++ 1 studentmenu.html
+studentmenu.html
++ 2 footer.html
+footer.html
+*L
+1,14:52
+1#1,44:66
+14#0,26:109
+40,25:136
+64,2:161
+66,5:163,3
+71:178
+72:179,3
+73,3:182
+76,2:186
+77,11:188
+1#2,13:199
+87#0,4:212
+*E

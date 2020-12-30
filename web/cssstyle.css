@@ -1,0 +1,110 @@
+body{
+/* background-color: #e8f3f8;*/
+background: #FF9000;
+ font-family: calibri;
+ text-align: center;
+}
+
+h1{
+ text-align: center;
+ font-size: 50px;
+ color: black;
+}
+
+a{
+ text-decoration: none;
+ font-size: 20px;
+ text-align: center;
+}
+
+form{
+ margin: 20px auto;
+ width: 320px;
+ color: black;
+ 
+}
+
+input{
+ padding: 10px;
+ font-size: inherit;
+}
+
+input[type="text"] {
+ display: block;
+ margin-bottom: 20px;
+ width: 100%;
+ border: 2px solid;
+}
+
+input[type="email"] {
+ display: block;
+ margin-bottom: 20px;
+ width: 100%;
+ border: 2px solid;
+}
+
+input[type="password"] {
+ display: block;
+ margin-bottom: 20px;
+ width: 100%;
+ border: 2px solid;
+}
+
+input[type="radio"]{
+ margin: 0 8px 25px 18px;
+}
+
+input[type="radio"]:first-child{
+ margin-left: 0;
+}
+
+input[type="submit"] {
+ width: 344px;
+ height: 45px;
+ border: none;
+ background: black;
+ color: white;
+}
+
+
+input:focus{
+ background: white;
+ color: black;
+}
+
+input[type="radio"]:checked + label{
+ font-weight: bold;
+ font-size: 18px;
+}
+
+.gender
+{
+margin-left:0px; 
+font-size: 18px;
+}
+/*.submit
+{
+	margin-left: 0px;
+	width: 80%;
+	height:80;
+
+
+.cancel
+{
+margin-left: 200px;
+	width: 80%;
+	height:80;
+}*/
+/*
+.log-in{
+    display: block;
+    width: 100%;
+    height: 100px;
+    border: none;
+ 
+    padding: 14px 28px;
+    font-size: 16px;
+    
+    text-align: center;
+}
+*/

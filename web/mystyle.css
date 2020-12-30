@@ -1,0 +1,253 @@
+*
+{
+    /*this is for default margin and padding none*/
+    margin: 0px;
+    padding: 0px;
+}
+
+#maincontent
+{
+
+    /*this properties apply all*/
+    border: 1px solid black;/*for view*/
+    height: 1050px;
+    width:1192px;/*950px*/
+    /* margin: auto; for center  default for all machine */
+    margin:auto;
+    /*background:white //new enter;*/
+    /*padding: 20px;*/
+    padding-top: 65px;
+}
+
+#wrap
+{
+    /*this properties apply all*/
+    //border: 1px solid black;/*for view*/
+    height: 1050px;
+    width:1192px;/*950px*/
+    /* margin: auto; for center  default for all machine */
+    margin:100px auto;
+    /*background:white //new enter;*/
+    padding: 20px;
+}
+#section
+{
+    border: 1px solid black;/*for view*/
+    height: 1050px;
+    width:1192px;/*950px*/
+    margin: auto;
+}
+
+#header
+{
+    background-color:orange;/*gray color code*/
+    height: 50px;/*height: 40px color for bg i.e height (80px)*/
+    /*this is for header*/
+    padding-top: 10px;/*25px*/
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+
+}
+#nav
+{
+    padding-top: 10px;
+    background-color: black;
+    height: 45px;
+    width:100%;
+    padding-bottom: 10px;
+    /* position: absolute;*/
+}
+
+
+#menu
+{
+    padding-top: 10px;
+    background-color: black;
+    height: 45px;
+    width:100%;
+    padding-bottom: 10px;
+    position: absolute;
+}
+#menu ul
+{
+    list-style: none;/*bullets are remove*/
+
+}
+/*for index nav*/
+#nav ul
+{
+    list-style: none;/*bullets are remove*/
+
+}
+#menu ul li
+{
+    float: left;
+    @import "style.css";
+    color:white;
+    margin-top: 10px;
+    /*new properties*/
+    width:150px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;  
+}
+
+#childmenu li {
+    background:black;
+    box-shadow:0 0 1px rgba(0,0,0,.3);
+    color:white;
+    width: 200px !important;
+}
+/*for index nav*/
+#nav ul li
+{
+    float: left;
+    color:white;
+    margin: 10px;
+    /*new properties*/
+    width:150px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#main
+{
+    width:1165px;/*initiall 900px*/
+    height: 656px;/*initially set 600px*/
+    border: 1px solid red; 
+    margin: auto;
+    margin-top:10px;/*15px*/
+}
+#first
+{
+
+    /*background-color: red; for test */
+    width:379px;/*300px*/
+    height: 628px;/*500px*/
+    border: 1px solid red;
+    float: left;
+    margin: 3.5px;
+
+}
+#first img
+{
+    width: 379px;
+    height: 438px;
+
+}
+#title
+{
+    color: orange;
+    font-size:28px;
+    font-weight: bold;
+    padding:1px;
+}
+#content
+{
+    text-align: justify;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#second
+{
+    width:379px;
+    height: 628px;
+    border: 1px solid red;
+    float: left;
+    margin: 3.5px;
+}
+
+
+#second img
+{
+    width: 379px;
+    height: 438px;
+
+
+}
+#third
+{
+    width:379px;/*380px*/
+    height: 628px;/*500px*/
+    border: 1px solid red;
+    float: left;
+    margin: 3.5px;
+}
+#third img
+{
+    width: 379px;
+    height: 438px;
+
+
+}
+
+#mainnews
+{
+    border: 1px solid blue;
+    height: 250px;
+    width:1165px;
+    margin: auto;
+    margin-top: 5px;
+
+}	
+
+#mainnews img
+{
+    height: 185;
+    width:750;
+    margin: 5px;
+    padding:5px;
+}
+
+
+#footer
+{
+    height: 55px;
+    width: 1165px;
+    border: 1px solid green;
+    margin: auto;
+    margin-top: 10px;
+
+
+}
+#bottom
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul li a:hover
+{
+    background-color:green;
+    color: white;
+    text-decoration: none;
+    /*new this*/
+}
+
+#menu ul li a
+{
+    text-decoration: none;/*for anchor tag*/
+    display: block;
+    color:white;
+    text-transform: uppercase;
+}
+/*for index nav */
+#nav ul li a
+{
+    text-decoration: none;/*for anchor tag*/
+    display: block;
+}
+ul li ul
+{
+
+    display: none;
+}
+ul li:hover ul
+{
+    display: block;
+}

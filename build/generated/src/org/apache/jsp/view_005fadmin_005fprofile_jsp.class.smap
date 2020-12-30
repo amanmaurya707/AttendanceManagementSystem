@@ -1,0 +1,28 @@
+SMAP
+view_005fadmin_005fprofile_jsp.java
+JSP
+*S JSP
+*F
++ 0 view_admin_profile.jsp
+view_admin_profile.jsp
++ 1 adminmenu.html
+adminmenu.html
++ 2 footer.html
+footer.html
+*L
+1,14:52
+1#1,57:66
+14#0,19:123
+33,29:143
+61,2:172
+63,2:174,3
+65,3:180
+68:183,3
+69,2:186
+71,4:188,3
+75,3:200
+78,7:204
+84,12:211
+1#2,13:223
+95#0,4:236
+*E

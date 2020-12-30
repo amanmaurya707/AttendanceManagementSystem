@@ -1,0 +1,16 @@
+SMAP
+studenthome_jsp.java
+JSP
+*S JSP
+*F
++ 0 studenthome.jsp
+studenthome.jsp
++ 1 footer.html
+footer.html
+*L
+1,43:49
+44,3:93
+46,6:96
+1#1,13:102
+51#0,5:115
+*E

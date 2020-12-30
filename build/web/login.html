@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login form</title>
+	<link rel="stylesheet" type="text/css" href="logincss.css">
+       <!-- <script type="text/javascript" language="JavaScript" src="../loginverify.js"></script>-->
+     <script type="text/javascript" language="javascript" src="loginverify.js"></script>
+</head>
+<body>
+
+    <form action="login_check.jsp" onsubmit="return myFun()"> 
+<div class="login-form" align="center">
+                   <h1>log in</h1>
+                  <div class="form-group ">
+                          <label> username:</label><br><input type="text" name="txtusername" id="username" class="form-control" placeholder="Username"><br><br>
+                          <span id="message1" style="color:red"></span>
+ 
+                          <i class="fa fa-user"></i>
+   
+                        <i class="fa fa-user"></i>
+                 </div>
+
+                
+
+
+                <div class="form-group log-status">
+                  <label>password:</label><br><input type="password" name="txtpassword" id="password" class="form-control" placeholder="Password"> <br><br>
+               <span id="message2" style="color:red"></span>    
+
+                   </div>
+               <div class="log-in">
+                     <input type="submit" value="login">   
+        	  </div>
+        	  <u><a href="index.html">Home</a></u>
+  
+   </div>
+   </form>
+ 
+</body>
+</html>

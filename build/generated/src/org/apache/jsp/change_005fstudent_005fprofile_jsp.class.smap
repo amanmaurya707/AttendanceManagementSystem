@@ -1,0 +1,30 @@
+SMAP
+change_005fstudent_005fprofile_jsp.java
+JSP
+*S JSP
+*F
++ 0 change_student_profile.jsp
+change_student_profile.jsp
++ 1 studentmenu.html
+studentmenu.html
++ 2 footer.html
+footer.html
+*L
+1,14:52
+1#1,44:66
+14#0,19:109
+33,29:129
+61,2:158
+63,2:160,3
+65:166
+66,3:167,3
+69,2:176
+71,4:178,3
+75,3:190
+78:193,3
+79,3:196
+82,7:200
+88,12:207
+1#2,13:219
+99#0,4:232
+*E

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="cssstyle.css">
+	
+        <script type="text/javascript" language="javascript" src="registerverify.js"></script>
+</head>
+<body>
+       
+   <div id="wrap">    
+    
+<!--<h1>register user</h1>-->
+<form action="register_user_roles.jsp" method="get" onsubmit="return myFunction()" name="forms">
+
+            <h1 style="">sign up</h1>
+        <span id="msgname" style="color:red"></span>
+	<input type="text" name="txtname" placeholder="user name" id="name" onkeyup="myFuntion()"> 
+
+         <span id="msgpass" style="color:red"></span>   
+     <input type="password" name="txtpass" placeholder="password" id="password" onkeyup="myFunction()">
+
+          <span id="msgrpass" style="color:red"></span>   
+     <input type="password" name="txtrpass" placeholder="confirm password" id="rpassword" onkeyup="myFunction()">
+        
+        <span id="msgemail" style="color:red"></span>
+        <input type="email" name="txtemail" placeholder="email" id="email" onkeyup="myFunction()">
+        
+        
+        <span id="msgphoneno" style="color:red"></span>
+	<input type="text" name="txtphoneno" placeholder="phone number" id="phoneno" onkeyup="myFunction()">
+        
+	
+        <div><span id="msguser" style="color:red"></span></div>
+        <label class="ddluser">user type :</label>
+        
+                        <select name="ddluser" >
+                            <option value="select user">select user</option>
+                            <option value="student" selected="selected">Student</option>
+                             <option value="staff">Staff</option>
+                         
+                         </select>
+        
+<br><br>
+
+
+<input type="submit" value="submit"><br/>
+<a href="index.html">back</a>
+
+
+
+    
+
+</form>
+</div>
+
+   
+
+</body>
+</html>

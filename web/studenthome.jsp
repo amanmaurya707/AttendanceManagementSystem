@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+      
+  
+		<div id="header">
+					<h1>(AMS)Attendance Management System</h1>
+
+		</div>
+
+		<div id="menu">
+		<ul>
+			<li><a href="#">student home</a></li>
+			<li><a href="#">profile</a>
+                       
+                            <ul  id="childmenu">
+                                <li><a href="view_student_profile.jsp">view profile</a></li>
+                               
+                                <li><a href="change_student_profile.jsp">change profile</a></li>
+                            </ul>
+                              
+                        </li>
+
+                        
+			
+                        
+                        <li><a href="#">attendance</a>
+                            <ul  id="childmenu"><li><a href="view_attendance_by_student.jsp">view attendance</a></li></ul><!--create pdf or display student records-->
+                        </li>
+			<li><a href="login.html">logout</a></li>
+		</ul>		
+	</div>
+
+	    <div id="wrap">
+         
+  <% 
+out.println("<h1 align=center><font color=orange>welcome student</font></h1><br><br>");
+out.println("<img src='./images/admindashboard_1.jpg' style='width:100%'>");
+  %>
+  
+        
+    </div>
+ 
+        
+    </body>
+</html>

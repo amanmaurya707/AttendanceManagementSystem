@@ -1,0 +1,18 @@
+SMAP
+register_005fstudent_jsp.java
+JSP
+*S JSP
+*F
++ 0 register_student.jsp
+register_student.jsp
++ 1 adminmenu.html
+adminmenu.html
++ 2 footer.html
+footer.html
+*L
+1,11:50
+1#1,57:61
+11#0,62:118
+1#2,13:179
+72#0,3:192
+*E
